@@ -1,0 +1,45 @@
+body{
+    background-color: #0f1319;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+#loginBox{
+    color:whitesmoke;
+    text-align:center;
+    text-transform: uppercase;
+    padding-top: 10%;
+    width: 50%;
+}
+form input[type ="password"],form input[type ="text"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+form input[type ="password"]:focus,form input[type ="email"]:focus{
+    width: 60% !important;
+    border-color: #2ecc71;}
+form input[type = "submit"]{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  form input[type = "submit"]:hover{
+    background: #2ecc71;
+  }
